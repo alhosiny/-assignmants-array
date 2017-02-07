@@ -16,7 +16,7 @@ exports.odds = function(a){
     }
     return array_odd;
 }
-exports.find = function(a, function_v){
+exports.find = function(a, function_V){
         for(j=0; j< a.length; j++){
             if(function_v(a[j])){
                 return 50;
